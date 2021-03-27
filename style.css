@@ -1,7 +1,8 @@
-body{background-color: #279c75a9}
+body{background-color: rgb(107, 191, 196)}
 body{color: rgb(6, 6, 90);
     font-family: 'Maven Pro', sans-serif;
     text-align: left;
+<<<<<<< HEAD
     text-decoration: none
     }
 h1{font-size: 50px;
@@ -9,6 +10,15 @@ h1{font-size: 50px;
     }
 
 img {width: 12%;
+=======
+    text-decoration: none;
+    }
+h1{font-size: 50px;
+    text-shadow: 10px 3px 10px rgba(6, 6, 90, 0.3);
+    }
+
+img {width: 200px;
+>>>>>>> 65a80d60dee415cec24e9e662954eefc7aa63800
     border: 3px solid rgb(6, 6, 90);
     border-radius: 0 30% 30% 30%;
     margin-right: 30px;
@@ -16,8 +26,12 @@ img {width: 12%;
     }
     
 .text{font-size: 28px;
+<<<<<<< HEAD
     width: 100%;
     padding: 50px 300px;
+=======
+        box-sizing: border-box;
+>>>>>>> 65a80d60dee415cec24e9e662954eefc7aa63800
     }
 a {color: rgb(13, 65, 24);
    font-size: 26px;
