@@ -1,44 +1,61 @@
-body{background-color: rgb(107, 191, 196)}
-body{color: rgb(6, 6, 90);
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body{
+    background-color: #279c75a9;
     font-family: 'Maven Pro', sans-serif;
     text-align: left;
-<<<<<<< HEAD
-    text-decoration: none
-    }
-h1{font-size: 50px;
-    text-shadow: 10px 3px 10px rgba(6, 6, 90, 0.3);
+    max-width: 50rem;
+    margin: auto;
     }
 
-img {width: 12%;
-=======
-    text-decoration: none;
-    }
-h1{font-size: 50px;
-    text-shadow: 10px 3px 10px rgba(6, 6, 90, 0.3);
+h1{font-size: 3.5rem;
+    color: #165168;;
+    text-shadow: 10px 3px 10px  #11313d60;;;
+    margin-left: 0.5rem;
     }
 
-img {width: 200px;
->>>>>>> 65a80d60dee415cec24e9e662954eefc7aa63800
-    border: 3px solid rgb(6, 6, 90);
+img {width: 15%;
+    border: 3px solid #165168;
     border-radius: 0 30% 30% 30%;
-    margin-right: 30px;
+    margin: 1.5rem;
     float: left;
     }
     
-.text{font-size: 28px;
-<<<<<<< HEAD
-    width: 100%;
-    padding: 50px 300px;
-=======
-        box-sizing: border-box;
->>>>>>> 65a80d60dee415cec24e9e662954eefc7aa63800
+main{
+    background-color: #2d8686;
+    max-width: 100%;
+}
+
+section {
+    background-color: #17a3a3fb;
+    font-size: 2rem;
+    color: rgb(13, 65, 24);;
+    padding: 1rem;
     }
-a {color: rgb(13, 65, 24);
-   font-size: 26px;
+
+/*a {color: rgb(13, 65, 24);
+   font-size: 1.5rem;
    text-decoration: none;
-   padding-left: 50px;
-   }
-.links{text-align: justify;}
+   margin-left: 2rem;
+   }*/
+
+div img {width: 3%;
+    border: none;
+    border-radius: 10%;
+}
+
+.links{text-align: justify;
+    display: inline-block;
+    max-width: 50rem;
+}
 
 
 /*
